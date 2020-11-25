@@ -74,6 +74,7 @@
     <Content Include="Content\js\jquery.steps.min.js" />
     <Content Include="Content\js\jquery.validate.min.js" />
     <Content Include="Content\js\sweetalert2.min.js" />
+    <Content Include="MyInsurance.aspx" />
     <Content Include="MyForms.aspx" />
     <Content Include="MyCharts.aspx" />
     <Content Include="RequestAppointments.aspx" />
@@ -365,6 +366,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyInsurance.aspx.cs">
+      <DependentUpon>MyInsurance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyInsurance.aspx.designer.cs">
+      <DependentUpon>MyInsurance.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MyForms.aspx.cs">
       <DependentUpon>MyForms.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
