@@ -41,9 +41,9 @@
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Nigam</td>
-                                            <td>Eichmann</td>
-                                            <td>@Sonu</td>
+                                            <td>John</td>
+                                            <td>Doe</td>
+                                            <td>@JohnDoe</td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
