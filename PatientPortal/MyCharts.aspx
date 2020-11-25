@@ -26,13 +26,84 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane active" id="home7" role="tabpanel">
-                            <div class="p-20 p-l-0">
-                                <h3>Best Clean Tab ever</h3>
-                                <h4>you can use it with the small code</h4>
-                                <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a.</p>
+                            <div class="row p-t-10">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="col-md-12 align-self-center text-right m-b-15 m-r-0 p-r-0">
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <button type="button" class="btn btn-info d-lg-block m-l-15" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo"><i class="fas fa-print"></i>&nbsp;Print My Chart</button>
+                                                <button type="button" class="btn btn-info d-lg-block m-l-15" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo"><i class="fas fa-download"></i>&nbsp;Download My Chart</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-header bg-info">
+                                            <h4 class="m-b-0 text-white"><b>Chart Summary</b></h4>
+                                        </div>
+                                        <div class="card-body">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="tab-pane p-20 p-l-0" id="profile7" role="tabpanel">2</div>
+                        <div class="tab-pane p-20 p-l-0" id="profile7" role="tabpanel">
+                            <ul class="nav nav-tabs customtab" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#currentmed" role="tab" aria-selected="true"><span class="hidden-xs-down">&nbsp;Current Medications</span></a> </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#pastmed" role="tab" aria-selected="false"><span class="hidden-xs-down">&nbsp;Past Medications</span></a> </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="currentmed" role="tabpanel">
+                                    <div class="p-20 p-l-0">
+                                        <div class="alert alert-info alert-rounded text-center">
+                                            You have no current medications on file.
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane p-20 p-l-0" id="pastmed" role="tabpanel">
+                                    <div class="alert alert-info alert-rounded text-center">
+                                        You have no past medications on file.
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="col-md-12 align-self-center text-right m-b-15 m-r-0 p-r-0">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <button type="button" class="btn btn-info d-lg-block m-l-15" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo"><i class="fa fa-plus-circle"></i>&nbsp;Add a pharmacy</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header bg-info">
+                                            <h4 class="m-b-0 text-white"><b>Pharmacies</b></h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <form action="#">
+                                                <div class="form-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table color-table primary-table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Name</th>
+                                                                    <th>Address</th>
+                                                                    <th>Phone</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td colspan="3">There are no pharmacies to display.
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="tab-pane p-20 p-l-0" id="messages7" role="tabpanel">3</div>
                     </div>
                 </div>
