@@ -29,7 +29,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td colspan="4">There are no insurances on file for.
+                                            <td colspan="4">There are no insurances on file for User.
                                             </td>
                                         </tr>
                                     </tbody>

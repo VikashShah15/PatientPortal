@@ -69,8 +69,12 @@
                         <div class="form-group m-b-40">
                             <select class="form-control p-0" id="input4">
                                 <option></option>
-                                <option>Test</option>
-                                <option>Test</option>
+                                <option>Where were you born?</option>
+                                <option>What high school did you attend?</option>
+                                <option>What is your mother's maiden name?</option>
+                                <option>Where did you spend your honeymoon?</option>
+                                <option>What is name of your first pet?</option>
+                                <option>In what year was your mother born?</option>
                             </select><span class="bar"></span>
                             <label for="input4">Choose a security question</label>
                         </div>
