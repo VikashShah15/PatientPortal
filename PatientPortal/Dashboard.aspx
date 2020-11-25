@@ -25,7 +25,9 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <img src="Content/images/appointment.png" />
-                        <h3 class="card-title" style="margin-top: 10px;">Schedule an appointment</h3>
+                        <h3 class="card-title" style="margin-top: 10px;">Schedule an 
+                            <br />
+                            appointment</h3>
                     </div>
                 </div>
             </a>
@@ -37,7 +39,7 @@
                         <img src="Content/images/email.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Send a
                         <br />
-                            massage</h3>
+                            message</h3>
                     </div>
                 </div>
             </a>
