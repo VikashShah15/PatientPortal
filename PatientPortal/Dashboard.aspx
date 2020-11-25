@@ -43,14 +43,16 @@
             </a>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="Content/images/refill.png" />
-                    <h3 class="card-title" style="margin-top: 10px;">Request
+            <a href="RequestRefill.aspx">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="Content/images/refill.png" />
+                        <h3 class="card-title" style="margin-top: 10px;">Request
                         <br />
-                        a refill</h3>
+                            a refill</h3>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </asp:Content>

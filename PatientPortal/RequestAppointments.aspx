@@ -20,7 +20,7 @@
                 <div class="card-body wizard-content">
                     <%--<h4 class="card-title">Step wizard</h4>
                                 <h6 class="card-subtitle">You can find the <a href="http://www.jquery-steps.com" target="_blank">offical website</a></h6>--%>
-                    <form action="#" class="tab-wizard wizard-circle">
+                    <form action="#" class="tab-wizard wizard-circle" id="test1">
                         <!-- Step 1 -->
                         <h6>Personal Info</h6>
                         <section>

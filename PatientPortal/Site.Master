@@ -202,7 +202,23 @@
                 debugger;
                 Swal.fire("Live Appointment Success!", "Your Appointment has successfully been scheduled for Friday, July 31 2020 10:30 AM with REED FOWLER at Patient Portal - Main Office.");
                 setTimeout(function () { window.location = "MyAppointments.aspx"; }, 4000);
-                
+
+            }
+        });
+
+        $(".validation-wizard").steps({
+            headerTag: "h6",
+            bodyTag: "section",
+            transitionEffect: "fade",
+            titleTemplate: '<span class="step">#index#</span> #title#',
+            labels: {
+                finish: "SUBMIT"
+            },
+            onFinished: function (event, currentIndex) {
+                debugger;
+                //Swal.fire("Live Appointment Success!", "Your Appointment has successfully been scheduled for Friday, July 31 2020 10:30 AM with REED FOWLER at Patient Portal - Main Office.");
+                setTimeout(function () { window.location = "Dashboard.aspx"; }, 1000);
+
             }
         });
     </script>
