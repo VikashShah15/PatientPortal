@@ -47,9 +47,9 @@
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Deshmukh</td>
-                                            <td>Prohaska</td>
-                                            <td>@Genelia</td>
+                                            <td>Harry</td>
+                                            <td>Potter</td>
+                                            <td>@HarryP</td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
