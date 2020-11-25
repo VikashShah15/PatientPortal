@@ -52,7 +52,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Address:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">John </p>
+                                                                    <p class="form-control-static">10880 Malibu Point, Malibu, CA, 90265</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -61,7 +61,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Work Phone:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Doe </p>
+                                                                    <p class="form-control-static">212-970-4133</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -73,7 +73,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Home Phone:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Male </p>
+                                                                    <p class="form-control-static">212-970-4133</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -82,7 +82,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Date of Birth:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">11/06/1987 </p>
+                                                                    <p class="form-control-static">May 29, 1970</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -94,7 +94,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Preferred Language:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Category1 </p>
+                                                                    <p class="form-control-static">English</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -103,7 +103,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Prior Last Name:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Free </p>
+                                                                    <p class="form-control-static">N/A</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -116,7 +116,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Race:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Category1 </p>
+                                                                    <p class="form-control-static">Caucasian</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -125,7 +125,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Ethnicity:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Free </p>
+                                                                    <p class="form-control-static">White</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -143,7 +143,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Name:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">E104, Dharti-2, Near silverstar mall </p>
+                                                                    <p class="form-control-static">Virginia "Pepper" Potts</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -153,7 +153,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Phone:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Bhavnagar </p>
+                                                                    <p class="form-control-static">212-970-4133</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -162,7 +162,7 @@
                                                             <div class="form-group row">
                                                                 <label class="control-label text-right col-md-3">Relationship:</label>
                                                                 <div class="col-md-9">
-                                                                    <p class="form-control-static">Gujarat </p>
+                                                                    <p class="form-control-static">Spouse</p>
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -30,9 +30,10 @@
                                         <label for="location1">Who is this appointment for?</label>
                                         <select class="custom-select form-control" id="who" name="who">
                                             <option value="">Select</option>
-                                            <option value="Amsterdam">India</option>
-                                            <option value="Berlin">USA</option>
-                                            <option value="Frankfurt">Dubai</option>
+                                            <option value="Amsterdam">Office Visit</option>
+                                            <option value="Berlin">Wellness Physical</option>
+                                            <option value="Frankfurt">Vaccinations</option>
+                                            <option value="Frankfurt">Pre-travel Consultation</option>
                                         </select>
                                     </div>
                                 </div>
