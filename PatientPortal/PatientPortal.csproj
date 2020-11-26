@@ -68,15 +68,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\bootstrap-wysihtml5.css" />
+    <Content Include="Content\css\dataTables.bootstrap4.css" />
+    <Content Include="Content\css\responsive.dataTables.min.css" />
     <Content Include="Content\css\steps.css" />
     <Content Include="Content\css\sweetalert2.min.css" />
     <Content Include="Content\css\tab-page.css" />
+    <Content Include="Content\js\dataTables.responsive.min.js" />
+    <Content Include="Content\js\jquery.dataTables.min.js" />
     <Content Include="Content\js\jquery.steps.min.js" />
     <Content Include="Content\js\jquery.validate.min.js" />
     <Content Include="Content\js\sweetalert2.min.js" />
+    <Content Include="AddPharmacy.aspx" />
     <Content Include="MyInsurance.aspx" />
     <Content Include="MyForms.aspx" />
     <Content Include="MyCharts.aspx" />
+    <Content Include="MyProfile.aspx" />
     <Content Include="RequestRefill.aspx" />
     <Content Include="RequestAppointments.aspx" />
     <Content Include="MyMessages.aspx" />
@@ -367,6 +373,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddPharmacy.aspx.cs">
+      <DependentUpon>AddPharmacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPharmacy.aspx.designer.cs">
+      <DependentUpon>AddPharmacy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MyInsurance.aspx.cs">
       <DependentUpon>MyInsurance.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -387,6 +400,13 @@
     </Compile>
     <Compile Include="MyCharts.aspx.designer.cs">
       <DependentUpon>MyCharts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfile.aspx.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyProfile.aspx.designer.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="RequestRefill.aspx.cs">
       <DependentUpon>RequestRefill.aspx</DependentUpon>
