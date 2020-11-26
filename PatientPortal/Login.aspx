@@ -112,7 +112,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="mdob"><i class="ti-calendar"></i></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="DOB" aria-label="DOB" aria-describedby="mdob" runat="server" />
+                                <input type="text" class="form-control" placeholder="DOB - mm/dd/yyyy" aria-label="DOB" aria-describedby="mdob" runat="server" />
                             </div>
                         </div>
                         <div class="form-group text-center m-t-20">
@@ -128,7 +128,7 @@
                         <div class="form-group ">
                             <div class="col-xs-12">
                                 <h3>Enter the OTP below</h3>
-                                <p class="text-muted">A OTP has been sent to your registered mobile!</p>
+                                <p class="text-muted">Please enter the verification code you received</p>
                             </div>
                         </div>
                         <div class="form-group">
@@ -136,8 +136,9 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="motp"><i class="ti-lock"></i></span>
                                 </div>
-                                <input type="text" class="form-control" runat="server" />
+                                <input type="text" class="form-control" placeholder="Enter Code" runat="server" />
                             </div>
+                            <p class="text-muted">Code is valid for 5 minutes or 3 attempts</p>
                         </div>
                         <div class="form-group text-center m-t-20">
                             <div class="col-xs-12">

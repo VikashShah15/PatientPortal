@@ -19,7 +19,7 @@
         <div class="col-lg-12">
             <div class="alert alert-info alert-rounded m-b-10">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span> </button>
-                <i class="fa fa-check-circle"></i>&nbsp;Welcome to the Central Ohio Primary Care Physicians secure Patient Portal<br /><br />
+                <i class="fa fa-check-circle"></i>&nbsp;Welcome to the "Some" Primary Care Physicians secure Patient Portal.<br /><br />
                 This portal is available for information and for the convenience of our patients. It is NOT intended for diagnosis or treatment of medical problems. Please Note:
                 Messages left on the Patient Portal are for NON URGENT communications with your physician and may not be reviewed for up to 72 hours.
             </div>
