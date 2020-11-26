@@ -12,7 +12,6 @@
             <div class="d-flex justify-content-end align-items-center">
                 <button type="button" class="btn btn-info d-lg-block m-l-15" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fa fa-plus-circle"></i>&nbsp;Compose New Message</button>
             </div>
-
         </div>
     </div>
     <div class="row">
@@ -28,7 +27,6 @@
                     <h4 class="m-b-0 text-white"><b>New Messages</b></h4>
                 </div>
                 <div class="card-body">
-
                     <form action="#">
                         <div class="form-body">
                             <h4 class="card-title">You have no new messages</h4>
@@ -91,7 +89,6 @@
                                             <label for="message-text" class="control-label">Subject:</label>
                                             <textarea id="mymce" name="area" rows="5" cols="10" class="form-control"></textarea>
                                         </div>
-
                                     </form>
                                 </div>
                                 <div class="modal-footer">
