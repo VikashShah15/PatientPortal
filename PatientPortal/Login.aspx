@@ -146,7 +146,34 @@
                             </div>
                         </div>
                         <div class="ml-auto">
-                            <a href="javascript:void(0)" id="to-otpback" class="text-muted"><i class="fas fa-arrow-left m-r-5"></i>Back To Sign In</a>
+                            <a href="javascript:void(0)" id="to-otpbackreturn" class="text-muted"><i class="fas fa-arrow-left m-r-5"></i>Back To Sign In</a>
+                        </div>
+                    </form>
+                    <form class="form pt-3" id="otpmobileform" action="/">
+                        <div class="form-group ">
+                            <div class="col-xs-12">
+                                <h3>Select mobile number below</h3>
+                                <p class="text-muted">We will send verification code to confirm access to below number. Standard text messaging rates apply.</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input"/>
+                                        <label class="custom-control-label" for="customRadio1">***-***-0779</label>
+                                    </div>
+                                </div>
+                            </div>
+                           <%-- <p class="text-muted">Code is valid for 5 minutes or 3 attempts</p>--%>
+                        </div>
+                        <div class="form-group text-center m-t-20">
+                            <div class="col-xs-12">
+                                 <a href="javascript:void(0)" id="to-mobileotp1" class="btn btn-lg btn-info btn-rounded" style="width:60%">Send Code</a>
+                            </div>
+                        </div>
+                        <div class="ml-auto">
+                            <a href="javascript:void(0)" id="to-otpback" class="text-muted"><i class="fas fa-arrow-left m-r-5"></i>Return To Sign In Page</a>
                         </div>
                     </form>
                 </div>
@@ -184,11 +211,20 @@
         });
         $('#to-otpback').on("click", function () {
             $("#loginform").fadeIn();
-            $("#otpform").slideUp();
+            $("#otpmobileform").slideUp();
+        });
+        $('#to-mobileotp1').on("click", function () {
+            $("#otpform").fadeIn();
+            $("#otpmobileform").slideUp();
         });
         $('#to-otp').on("click", function () {
-            $("#otpform").fadeIn();
+            $("#otpmobileform").fadeIn();
             $("#recoverform").slideUp();
+        });
+        $('#to-otpbackreturn').on("click", function () {
+            $("#loginform").fadeIn();
+            $("#otpmobileform").slideUp();
+            $("#otpform").slideUp();
         });
     </script>
 </body>

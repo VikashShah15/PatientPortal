@@ -197,7 +197,7 @@
                                 <span class="badge badge-pill badge-primary text-white ml-auto">2</span></span></a>
                         </li>
                         <li>
-                            <a class="waves-effect waves-dark" href="/"><i class="fas fa-flask"></i><span class="hide-menu">Labs</span></a>
+                            <a class="waves-effect waves-dark" href="MyCharts.aspx#labs"><i class="fas fa-flask"></i><span class="hide-menu">Labs</span></a>
                         </li>
                         <li>
                             <a class="waves-effect waves-dark" href="MyForms.aspx"><i class="fab fa-wpforms"></i><span class="hide-menu">Forms</span></a>
@@ -210,21 +210,23 @@
                         </li>
                         <li>
                             <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="icon-chart"></i><span class="hide-menu">My Chart</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="MyCharts.aspx">Summary</a></li>
-                                <li><a href="/">Medications</a></li>
-                                <li><a href="/">Labs</a></li>
-                                <li><a href="/">Histories</a></li>
+                            <ul aria-expanded="false" class="collapse test" id="mychartmenu">
+                                <li><a href="MyCharts.aspx#chart">Summary</a></li>
+                                <li><a href="MyCharts.aspx#medications">Medications</a></li>
+                                <li><a href="MyCharts.aspx#labs">Labs</a></li>
+                                <li><a href="MyCharts.aspx#histories">Histories</a></li>
+                                <li><a href="MyCharts.aspx#allergies">Allergies</a></li>
+                                <li><a href="MyCharts.aspx#immunizations">Immunizations</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a class="waves-effect waves-dark" href="/"><i class="fas fa-book"></i><span class="hide-menu">Health Education</span></a>
+                            <a class="waves-effect waves-dark" href="Dashboard.aspx"><i class="fas fa-book"></i><span class="hide-menu">Health Education</span></a>
                         </li>
                         <li>
                             <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-ellipsis-h"></i><span class="hide-menu">Practice Links</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="/">Pediatrics</a></li>
-                                <li><a href="/">Pediatrics - Facebook</a></li>
+                                <li><a href="Dashboard.aspx">Pediatrics</a></li>
+                                <li><a href="Dashboard.aspx">Pediatrics - Facebook</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -326,6 +328,33 @@
         $('#example23').DataTable({
             dom: 'Bfrtip',
             responsive: true
+        });
+
+        $('#myTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+
+        $('#mychartmenu a').click(function (e) {
+            debugger;
+            $(this).tab('show');
+            //window.location.reload();
+        });
+
+        // store the currently selected tab in the hash value
+        $("ul.test > li > a").on("shown.bs.tab", function (e) {
+            debugger;
+            var id = $(e.target).attr("href");
+            window.location.hash = id;
+            window.location.href = id;
+            window.location.reload();
+        });
+
+        $(document).ready(function () {
+            debugger;
+            // on load of the page: switch to the currently selected tab
+            var hash = window.location.hash;
+            $('#myTab a[href="' + hash + '"]').tab('show');
         });
     </script>
 </body>

@@ -71,6 +71,9 @@ Login register and recover password Page
 #otpform {
     display: none;
 }
+#otpmobileform {
+    display: none;
+}
 
 .login-sidebar {
   padding: 0px;

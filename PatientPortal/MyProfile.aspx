@@ -18,6 +18,13 @@
                         <img src="Content/images/users-1.jpg" class="img-circle" width="150">
                                     <h4 class="card-title m-t-10">User</h4>
                                     <h6 class="card-subtitle">Designation</h6>
+                        <div class="row text-center justify-content-md-center">
+                                        <div class="col-4">
+                                            <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;Edit</a>
+                                        </div>
+
+                                        <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>&nbsp;Picture</a></div>
+                                    </div>
                                 </center>
                 </div>
                 <div>
@@ -108,5 +115,31 @@
             </div>
         </div>
         <!-- Column -->
+        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel1">Change password</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">New Password:</label>
+                                <input type="text" class="form-control" id="recipient-name1">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">Confirm Password:</label>
+                                <textarea class="form-control" id="message-text1"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </asp:Content>

@@ -17,17 +17,17 @@
                     <%--<h4 class="card-title">Customtab2 Tab</h4>
                     <h6 class="card-subtitle">Use default tab with class <code>customtab</code></h6>--%>
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs customtab2" role="tablist">
-                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home7" role="tab" aria-selected="true"><span class="hidden-sm-up"><i class="fas fa-chart-bar"></i></span><span class="hidden-xs-down">&nbsp;Chart Summary</span></a> </li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#profile7" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-capsules"></i></span><span class="hidden-xs-down">&nbsp;Medications</span></a> </li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#messages7" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-flask"></i></span><span class="hidden-xs-down">&nbsp;Labs</span></a> </li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#messages7" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-history"></i></span><span class="hidden-xs-down">&nbsp;Histories</span></a> </li>
+                    <ul class="nav nav-tabs customtab2" role="tablist" id="myTab">
+                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#chart" role="tab" aria-selected="true"><span class="hidden-sm-up"><i class="fas fa-chart-bar"></i></span><span class="hidden-xs-down">&nbsp;Chart Summary</span></a> </li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#medications" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-capsules"></i></span><span class="hidden-xs-down">&nbsp;Medications</span></a> </li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#labs" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-flask"></i></span><span class="hidden-xs-down">&nbsp;Labs</span></a> </li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#histories" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-history"></i></span><span class="hidden-xs-down">&nbsp;Histories</span></a> </li>
                         <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#allergies" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-capsules"></i></span><span class="hidden-xs-down">&nbsp;Allergies</span></a> </li>
                         <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#immunizations" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="fas fa-capsules"></i></span><span class="hidden-xs-down">&nbsp;Immunizations</span></a> </li>
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane active" id="home7" role="tabpanel">
+                        <div class="tab-pane active" id="chart" role="tabpanel">
                             <div class="row p-t-10">
                                 <div class="col-lg-12">
                                     <div class="card">
@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane p-20 p-l-0" id="profile7" role="tabpanel">
+                        <div class="tab-pane p-20 p-l-0" id="medications" role="tabpanel">
                             <ul class="nav nav-tabs customtab" role="tablist">
                                 <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#currentmed" role="tab" aria-selected="true"><span class="hidden-xs-down">&nbsp;Current Medications</span></a> </li>
                                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#pastmed" role="tab" aria-selected="false"><span class="hidden-xs-down">&nbsp;Past Medications</span></a> </li>
@@ -252,7 +252,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane p-20 p-l-0" id="messages7" role="tabpanel">
+                        <div class="tab-pane p-20 p-l-0" id="labs" role="tabpanel">
                             <div class="row p-t-10">
                                 <div class="col-lg-12">
                                     <div class="card">
@@ -378,6 +378,45 @@
                                                     </div>--%>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane p-20 p-l-0" id="histories" role="tabpanel">
+                            <div class="row p-t-10">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header bg-info">
+                                            <h4 class="m-b-0 text-white"><b>Histories</b></h4>
+                                        </div>
+                                        <div class="card-body">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane p-20 p-l-0" id="allergies" role="tabpanel">
+                            <div class="row p-t-10">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header bg-info">
+                                            <h4 class="m-b-0 text-white"><b>Allergies</b></h4>
+                                        </div>
+                                        <div class="card-body">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane p-20 p-l-0" id="immunizations" role="tabpanel">
+                            <div class="row p-t-10">
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-header bg-info">
+                                            <h4 class="m-b-0 text-white"><b>Immunizations</b></h4>
+                                        </div>
+                                        <div class="card-body">
                                         </div>
                                     </div>
                                 </div>
