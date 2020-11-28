@@ -79,6 +79,7 @@
     <Content Include="Content\js\jquery.validate.min.js" />
     <Content Include="Content\js\sweetalert2.min.js" />
     <Content Include="AddPharmacy.aspx" />
+    <Content Include="HealthLibrary.aspx" />
     <Content Include="MyInsurance.aspx" />
     <Content Include="MyForms.aspx" />
     <Content Include="MyCharts.aspx" />
@@ -379,6 +380,13 @@
     </Compile>
     <Compile Include="AddPharmacy.aspx.designer.cs">
       <DependentUpon>AddPharmacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthLibrary.aspx.cs">
+      <DependentUpon>HealthLibrary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthLibrary.aspx.designer.cs">
+      <DependentUpon>HealthLibrary.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyInsurance.aspx.cs">
       <DependentUpon>MyInsurance.aspx</DependentUpon>

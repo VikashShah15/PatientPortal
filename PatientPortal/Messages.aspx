@@ -41,53 +41,91 @@
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 </div>
                                 <div class="modal-body">
-                                    <form>
-                                        <div class="form-group m-b-5">
-                                            <label for="recipient-name" class="control-label">Please note that you can expect to receive a response within 24 hours.</label>
-                                        </div>
-                                        <div class="form-group m-b-5">
-                                            <label for="recipient-name" class="control-label">On behalf of:</label>
-                                            <select class="custom-select col-12" id="inlineFormCustomSelect">
-                                                <option selected="">Choose...</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group m-b-5">
-                                            <label for="message-text" class="control-label">Practice:</label>
-                                            <select class="custom-select col-12" id="inlineFormCustomSelect1">
-                                                <option selected="">Choose...</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group m-b-5">
-                                            <label for="message-text" class="control-label">Location:</label>
-                                            <select class="custom-select col-12" id="inlineFormCustomSelect2">
-                                                <option selected="">Choose...</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group m-b-5">
-                                            <label for="message-text" class="control-label">To:</label>
-                                            <select class="custom-select col-12" id="inlineFormCustomSelect3">
-                                                <option selected="">Choose...</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group m-b-5">
-                                            <label for="message-text" class="control-label">Subject:</label>
-                                            <input type="text" class="form-control" runat="server" />
-                                        </div>
-                                        <div class="form-group m-b-5">
-                                            <label for="message-text" class="control-label">Subject:</label>
-                                            <textarea id="mymce" name="area" rows="5" cols="10" class="form-control"></textarea>
+                                     <form>
+                                        <div class="form-body">
+                                            <div class="form-group row m-b-5">
+                                                <label for="recipient-name" class="control-label">Please note that you can expect to receive a response within 24 hours.</label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">On behalf of:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Practice:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect1">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Location:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect2">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">To:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect3">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Subject:</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control" runat="server" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Message:</label>
+                                                        <div class="col-md-10">
+                                                            <textarea id="mymce" name="area" rows="5" cols="10" class="form-control"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </form>
                                 </div>

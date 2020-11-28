@@ -59,8 +59,8 @@
                     </ul>
                     <ul class="navbar-nav my-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="hospital.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="ti-email"></i>
+                            <a class="nav-link waves-effect waves-dark" href="Dashboard.aspx" data-toggle="dropdown">
+                                <i class="fas fa-bell"></i>
                                 <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown">
@@ -107,52 +107,10 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="hospital.html" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="javascript:void(0)" id="2" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo" aria-haspopup="true" aria-expanded="false">
                                 <i class="icon-note"></i>
                                 <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
                             </a>
-                            <div class="dropdown-menu mailbox dropdown-menu-right animated bounceInDown" aria-labelledby="2">
-                                <ul>
-                                    <li>
-                                        <div class="drop-title">You have 4 new messages</div>
-                                    </li>
-                                    <li>
-                                        <div class="message-center">
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"> <img src="Content/images/users-1.jpg" alt="user" class="img-circle"><span class="profile-status online pull-right"></span> </div>
-                                                <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span>
-                                                </div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"> <img src="Content/images/users-1.jpg" alt="user" class="img-circle"><span class="profile-status busy pull-right"></span> </div>
-                                                <div class="mail-contnet">
-                                                    <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span>
-                                                </div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"> <img src="Content/images/users-1.jpg" alt="user" class="img-circle"><span class="profile-status away pull-right"></span> </div>
-                                                <div class="mail-contnet">
-                                                    <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span>
-                                                </div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"> <img src="Content/images/users-1.jpg" alt="user" class="img-circle"><span class="profile-status offline pull-right"></span> </div>
-                                                <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link text-center link" href="javascript:void(0);"> <strong>See all e-Mails</strong> <i class="fa fa-angle-right"></i> </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </li>
                         <li class="nav-item dropdown u-pro">
                             <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -184,14 +142,7 @@
                         </li>
                         <li>
                             <a class="waves-effect waves-dark" href="/Appointments.aspx"><i class="ti-calendar"></i><span class="hide-menu">Appointments</span></a>
-                            <%--<a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti-calendar"></i><span class="hide-menu">Appointments</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="MyAppointments.aspx">My Appointments</a></li>
-                            </ul>--%>
                         </li>
-                        <%--<li>
-                            <a class="waves-effect waves-dark" href="/MyAppointments.aspx"><i class="ti-calendar"></i><span class="hide-menu">My Appointments</span></a>
-                        </li>--%>
                         <li>
                             <a class="waves-effect waves-dark" href="/Messages.aspx"><i class="ti-email"></i><span class="hide-menu">Messages
                                 <span class="badge badge-pill badge-primary text-white ml-auto">2</span></span></a>
@@ -220,13 +171,13 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="waves-effect waves-dark" href="Dashboard.aspx"><i class="fas fa-book"></i><span class="hide-menu">Health Education</span></a>
+                            <a class="waves-effect waves-dark" href="HealthLibrary.aspx"><i class="fas fa-book"></i><span class="hide-menu">Health Education</span></a>
                         </li>
                         <li>
                             <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-ellipsis-h"></i><span class="hide-menu">Practice Links</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="Dashboard.aspx">Pediatrics</a></li>
-                                <li><a href="Dashboard.aspx">Pediatrics - Facebook</a></li>
+                                <li><a href="/">Pediatrics</a></li>
+                                <li><a href="/">Pediatrics - Facebook</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -262,6 +213,110 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal bs-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+                        <div class="modal-dialog modal-xl" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="exampleModalLabel1">Compose New message</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                     <form>
+                                        <div class="form-body">
+                                            <div class="form-group row m-b-5">
+                                                <label for="recipient-name" class="control-label">Please note that you can expect to receive a response within 24 hours.</label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">On behalf of:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Practice:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect1">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Location:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect2">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">To:</label>
+                                                        <div class="col-md-6">
+                                                            <select class="custom-select col-12" id="inlineFormCustomSelect3">
+                                                                <option selected="">Choose...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Subject:</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control" runat="server" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-2">Message:</label>
+                                                        <div class="col-md-10">
+                                                            <textarea id="mymce" name="area" rows="5" cols="10" class="form-control"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                                    <%--<button type="button" class="btn btn-info">Send message</button>--%>
+                                    <a href="MyMessages.aspx" class="btn btn-info">Send message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
         <footer class="footer">
