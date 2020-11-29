@@ -20,9 +20,8 @@
                                     <h6 class="card-subtitle">Designation</h6>
                         <div class="row text-center justify-content-md-center">
                                         <div class="col-4">
-                                            <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;Edit</a>
+                                            <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;Change password</a>
                                         </div>
-
                                         <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>&nbsp;Picture</a></div>
                                     </div>
                                 </center>
@@ -31,14 +30,16 @@
                     <hr>
                 </div>
                 <div class="card-body">
+                    <small class="text-muted">Full name </small>
+                    <h6>Anthony Edward Stark</h6>
                     <small class="text-muted">Email address </small>
-                    <h6>hannagover@gmail.com</h6>
+                    <h6>tony.stark@starkenterprises.com</h6>
                     <small class="text-muted p-t-30 db">Phone</small>
-                    <h6>+91 654 784 547</h6>
+                    <h6>+1 (212) 970-4133</h6>
                     <small class="text-muted p-t-30 db">Address</small>
-                    <h6>71 Pilgrim Avenue Chevy Chase, MD 20815</h6>
+                    <h6>10880 Malibu Point, Malibu, CA, 90265</h6>
                     <div class="map-box">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470029.1604841957!2d72.29955005258641!3d23.019996818380896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1493204785508" width="100%" height="150" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?ie=UTF8&hl=en&msa=0&ll=48.429200999999985%2C-109.907227&spn=21.78479%2C57.084961&z=5&mid=15luoYIdt3P-zVJLXceYUpo3UIKc" width="100%" height="150" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
                     </div>
                     <small class="text-muted p-t-30 db">Social Profile</small>
                     <br>
@@ -54,7 +55,7 @@
             <div class="card">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs profile-tab" role="tablist">
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#settings" role="tab">Settings</a> </li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#settings" role="tab">Account Settings</a> </li>
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content">
@@ -64,34 +65,34 @@
                                 <div class="form-group">
                                     <label class="col-md-12">Full Name</label>
                                     <div class="col-md-12">
-                                        <input type="text" placeholder="Johnathan Doe" class="form-control form-control-line">
+                                        <input type="text" placeholder="Anthony Edward Stark" class="form-control form-control-line">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="example-email" class="col-md-12">Email</label>
                                     <div class="col-md-12">
-                                        <input type="email" placeholder="johnathan@admin.com" class="form-control form-control-line" name="example-email" id="example-email">
+                                        <input type="email" placeholder="tony.stark@starkenterprises.com" class="form-control form-control-line" name="example-email" id="example-email">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <%--<div class="form-group">
                                     <label class="col-md-12">Password</label>
                                     <div class="col-md-12">
                                         <input type="password" value="password" class="form-control form-control-line">
                                     </div>
-                                </div>
+                                </div>--%>
                                 <div class="form-group">
                                     <label class="col-md-12">Phone No</label>
                                     <div class="col-md-12">
-                                        <input type="text" placeholder="123 456 7890" class="form-control form-control-line">
+                                        <input type="text" placeholder="+1 (212) 970-4133" class="form-control form-control-line">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <%--<div class="form-group">
                                     <label class="col-md-12">Message</label>
                                     <div class="col-md-12">
                                         <textarea rows="5" class="form-control form-control-line"></textarea>
                                     </div>
-                                </div>
-                                <div class="form-group">
+                                </div>--%>
+                                <%--<div class="form-group">
                                     <label class="col-sm-12">Select Country</label>
                                     <div class="col-sm-12">
                                         <select class="form-control form-control-line">
@@ -102,7 +103,7 @@
                                             <option>Thailand</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div>--%>
                                 <div class="form-group">
                                     <div class="col-sm-12">
                                         <button class="btn btn-success">Update Profile</button>
