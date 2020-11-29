@@ -79,12 +79,12 @@
                                     <form>
                                         <div class="form-body">
                                             <div class="form-group row m-b-5">
-                                                <label for="recipient-name" class="control-label">Please note that you can expect to receive a response within 24 hours.</label>
+                                                <label for="recipient-name" class="control-label p-l-10">Please note that you can expect to receive a response within 24 hours.</label>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group row">
-                                                        <label class="col-md-2">On behalf of:</label>
+                                                        <label class="col-md-3" style="text-align:right">On behalf of:</label>
                                                         <div class="col-md-6">
                                                             <select class="custom-select col-12" id="inlineFormCustomSelect">
                                                                 <option selected="">Choose...</option>
@@ -99,7 +99,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group row">
-                                                        <label class="col-md-2">Practice:</label>
+                                                        <label class="col-md-3" style="text-align:right">Practice:</label>
                                                         <div class="col-md-6">
                                                             <select class="custom-select col-12" id="inlineFormCustomSelect1">
                                                                 <option selected="">Choose...</option>
@@ -114,7 +114,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group row">
-                                                        <label class="col-md-2">Location:</label>
+                                                        <label class="col-md-3" style="text-align:right">Location:</label>
                                                         <div class="col-md-6">
                                                             <select class="custom-select col-12" id="inlineFormCustomSelect2">
                                                                 <option selected="">Choose...</option>
@@ -129,7 +129,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group row">
-                                                        <label class="col-md-2">To:</label>
+                                                        <label class="col-md-3" style="text-align:right">To:</label>
                                                         <div class="col-md-6">
                                                             <select class="custom-select col-12" id="inlineFormCustomSelect3">
                                                                 <option selected="">Choose...</option>
@@ -144,19 +144,29 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group row">
-                                                        <label class="col-md-2">Subject:</label>
-                                                        <div class="col-md-10">
+                                                        <label class="col-md-3" style="text-align:right">Subject:</label>
+                                                        <div class="col-md-9">
                                                             <input type="text" class="form-control" runat="server" />
                                                         </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group row">
+                                                        <label class="col-md-3" style="text-align:right"><i class="fas fa-link"></i></label>
+                                                        <%--<div class="col-md-9">
+                                                            <input type="text" class="form-control" runat="server" />
+                                                        </div>--%>
                                                     </div>
                                                 </div>
                                             </div>
                                              <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group row">
-                                                        <label class="col-md-2">Message:</label>
-                                                        <div class="col-md-10">
-                                                            <textarea id="mymce" name="area" rows="5" cols="10" class="form-control"></textarea>
+                                                        <%--<label class="col-md-2">Message:</label>--%>
+                                                        <div class="col-md-12">
+                                                            <textarea id="mymce" name="area" rows="8" cols="10" class="form-control" placeholder="Please enter your message here"></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
