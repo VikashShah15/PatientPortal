@@ -185,24 +185,26 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-4 col-sm-12 col-xs-12">
-                                <h2>South Campus Gateway - Gamestop</h2>
+                                <h2>South Campus Gateway</h2>
                                 <h4>(614) 299-0730</h4>
                                 <h4>Closed Today</h4>
-                                <h4>Open in limited capacity - check with store for more information</h4>
-                                <h4>1611 N HIGH ST</h4>
+                                <h4>Open in limited capacity</h4>
+                                <h5>(check with clinic for more information)</h5>
+                                <h4>1611 N. HIGH ST</h4>
                                 <h4>COLUMBUS, OH 43021</h4>
                             </div>
                             <div class="col-md-4 col-sm-12 col-xs-12">
-                                <h2>Hours</h2>
-                                <h4>Mon : 12:00PM - 08:00PM</h4>
-                                <h4>Tue : 12:00PM - 08:00PM</h4>
-                                <h4>Wed : 12:00PM - 08:00PM</h4>
-                                <h4>Fri : 12:00PM - 08:00PM</h4>
-                                <h4>Sat : 12:00PM - 08:00PM</h4>
-                                <h4>Sun : 12:00PM - 08:00PM</h4>
+                                <h2>Clinic Hours</h2>
+                                <h4>Mon : 09:00AM - 06:00PM</h4>
+                                <h4>Tue : 09:00AM - 06:00PM</h4>
+                                <h4>Wed : 09:00AM - 06:00PM</h4>
+                                <h4>Fri : 09:00AM - 06:00PM</h4>
+                                <h4>Sat : 12:00PM - 04:00PM</h4>
+                                <h4>Sun : Closed</h4>
                             </div>
                             <div class="col-md-4 col-sm-12 col-xs-12">
-                                <iframe src="https://www.google.com/maps/embed?ie=UTF8&hl=en&msa=0&ll=48.429200999999985%2C-109.907227&spn=21.78479%2C57.084961&z=5&mid=15luoYIdt3P-zVJLXceYUpo3UIKc" width="100%" height="250" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+                                <h2>Get directions</h2>
+                                <iframe src="https://www.google.com/maps/embed?ie=UTF8&hl=en&msa=0&ll=48.429200999999985%2C-109.907227&spn=21.78479%2C57.084961&z=5&mid=15luoYIdt3P-zVJLXceYUpo3UIKc" width="100%" height="200" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
                             </div>
                         </div>
                     </div>

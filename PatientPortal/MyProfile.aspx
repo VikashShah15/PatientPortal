@@ -19,10 +19,10 @@
                                     <h4 class="card-title m-t-10">User</h4>
                                     <h6 class="card-subtitle">Designation</h6>
                         <div class="row text-center justify-content-md-center">
-                                        <div class="col-8">
+                                        <div class="col-6">
                                             <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;<label>Change password</label></a>
                                         </div>
-                                        <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>&nbsp;Picture</a></div>
+                                        <div class="col-6"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>&nbsp;Update picture</a></div>
                                     </div>
                                 </center>
                 </div>
@@ -38,11 +38,13 @@
                     <h6>+1 (212) 970-4133 <i class="fas fa-edit float-right"></i></h6>
                     <small class="text-muted p-t-30 db">Address</small>
                     <h6>10880 Malibu Point, Malibu, CA, 90265 <i class="fas fa-edit float-right"></i></h6>
+                    <br />
                     <div class="map-box">
                         <iframe src="https://www.google.com/maps/embed?ie=UTF8&hl=en&msa=0&ll=48.429200999999985%2C-109.907227&spn=21.78479%2C57.084961&z=5&mid=15luoYIdt3P-zVJLXceYUpo3UIKc" width="100%" height="150" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
                     </div>
+                    <br />
                     <small class="text-muted p-t-30 db">Social Profile</small>
-                    <br>
+                    <br />
                     <button class="btn btn-circle btn-secondary"><i class="fab fa-facebook-f"></i></button>
                     <button class="btn btn-circle btn-secondary"><i class="fab fa-twitter"></i></button>
                     <button class="btn btn-circle btn-secondary"><i class="fab fa-youtube"></i></button>
@@ -66,14 +68,20 @@
                                     <thead>
                                         <tr>
                                             <th>Notification Type</th>
-                                            <th><i class="fas fa-mobile-alt m-l-15"></i><br />Voice</th>
-                                            <th><i class="fas fa-mobile-alt m-l-10"></i><br />Text</th>
-                                            <th><i class="fas fa-envelope m-l-10"></i><br />Email</th>
+                                            <th><i class="fas fa-mobile-alt m-l-15"></i>
+                                                <br />
+                                                Voice</th>
+                                            <th><i class="fas fa-mobile-alt m-l-10"></i>
+                                                <br />
+                                                Text</th>
+                                            <th><i class="fas fa-envelope m-l-10"></i>
+                                                <br />
+                                                Email</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Appointment Reminder</td>
+                                            <td>New Appointment</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox0" value="check">
@@ -94,7 +102,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>Appointment Reminder</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox2" value="check">
@@ -115,7 +123,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>Cancelled Appointment</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox4" value="check">
@@ -136,7 +144,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>Reschedlued Appointment</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox6" value="check">
@@ -157,7 +165,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>New Medication</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox8" value="check">
@@ -178,7 +186,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>1</td>
+                                            <td>New Message</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox10" value="check">

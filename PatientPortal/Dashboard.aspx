@@ -37,7 +37,8 @@
             <a href="Messages.aspx">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="Content/images/orangeemail.png" />
+                        <%--<img src="Content/images/orangeemail.png" />--%>
+                        <img src="Content/images/email.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Send a
                         <br />
                             message</h3>
@@ -49,7 +50,8 @@
             <a href="RequestRefill.aspx">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="Content/images/orangerefill.png" />
+                        <%--<img src="Content/images/orangerefill.png" />--%>
+                        <img src="Content/images/refill.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Request
                         <br />
                             a refill</h3>
