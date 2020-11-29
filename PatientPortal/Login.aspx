@@ -174,7 +174,7 @@
                         </div>
                         <div class="ml-auto">
                             <a href="javascript:void(0)" id="to-otpback" class="text-muted"><i class="fas fa-arrow-left m-r-5"></i>Return To Sign In Page</a>
-                            <a href="javascript:void(0)" class="btn btn-info btn-rounded" style="float: right">Resend Code</a>
+                            <a href="javascript:void(0)" class="" style="float: right">Resend Code</a>
                         </div>
                     </form>
 

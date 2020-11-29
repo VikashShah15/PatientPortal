@@ -26,7 +26,7 @@
                             <div class="col-md-6 align-self-center text-right m-b-15 m-r-0 p-r-0">
                                 <div class="d-flex justify-content-end align-items-center">
                                     <input type="text" class="form-control" runat="server" />
-                                    <button type="button" class="btn btn-info d-lg-block m-l-15" style="width:70%;"><i class="fas fa-download"></i>&nbsp;SEARCH LIBRARY</button>
+                                    <button type="button" class="btn btn-info d-lg-block m-l-15" style="width:70%;"><i class="fas fa-search"></i>&nbsp;SEARCH LIBRARY</button>
                                 </div>
                             </div>
                             <div class="col-md-12">
