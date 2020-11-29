@@ -24,7 +24,7 @@
             <a href="Appointments.aspx">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="Content/images/appointment.png" />
+                        <img src="Content/images/orangeappointment.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Schedule an 
                             <br />
                             appointment</h3>
@@ -36,7 +36,7 @@
             <a href="Messages.aspx">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="Content/images/email.png" />
+                        <img src="Content/images/orangeemail.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Send a
                         <br />
                             message</h3>
@@ -48,7 +48,7 @@
             <a href="RequestRefill.aspx">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="Content/images/refill.png" />
+                        <img src="Content/images/orangerefill.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Request
                         <br />
                             a refill</h3>

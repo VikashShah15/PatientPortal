@@ -19,8 +19,8 @@
                                     <h4 class="card-title m-t-10">User</h4>
                                     <h6 class="card-subtitle">Designation</h6>
                         <div class="row text-center justify-content-md-center">
-                                        <div class="col-4">
-                                            <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;Change password</a>
+                                        <div class="col-8">
+                                            <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;<label>Change password</label></a>
                                         </div>
                                         <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>&nbsp;Picture</a></div>
                                     </div>
@@ -31,13 +31,13 @@
                 </div>
                 <div class="card-body">
                     <small class="text-muted">Full name </small>
-                    <h6>Anthony Edward Stark</h6>
+                    <h6>Anthony Edward Stark <i class="fas fa-edit float-right"></i></h6>
                     <small class="text-muted">Email address </small>
-                    <h6>tony.stark@starkenterprises.com</h6>
+                    <h6>tony.stark@starkenterprises.com <i class="fas fa-edit float-right"></i></h6>
                     <small class="text-muted p-t-30 db">Phone</small>
-                    <h6>+1 (212) 970-4133</h6>
+                    <h6>+1 (212) 970-4133 <i class="fas fa-edit float-right"></i></h6>
                     <small class="text-muted p-t-30 db">Address</small>
-                    <h6>10880 Malibu Point, Malibu, CA, 90265</h6>
+                    <h6>10880 Malibu Point, Malibu, CA, 90265 <i class="fas fa-edit float-right"></i></h6>
                     <div class="map-box">
                         <iframe src="https://www.google.com/maps/embed?ie=UTF8&hl=en&msa=0&ll=48.429200999999985%2C-109.907227&spn=21.78479%2C57.084961&z=5&mid=15luoYIdt3P-zVJLXceYUpo3UIKc" width="100%" height="150" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
                     </div>
@@ -61,55 +61,116 @@
                 <div class="tab-content">
                     <div class="tab-pane active" id="settings" role="tabpanel">
                         <div class="card-body">
-                            <form class="form-horizontal form-material">
-                                <div class="form-group">
-                                    <label class="col-md-12">Full Name</label>
-                                    <div class="col-md-12">
-                                        <input type="text" placeholder="Anthony Edward Stark" class="form-control form-control-line">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="example-email" class="col-md-12">Email</label>
-                                    <div class="col-md-12">
-                                        <input type="email" placeholder="tony.stark@starkenterprises.com" class="form-control form-control-line" name="example-email" id="example-email">
-                                    </div>
-                                </div>
-                                <%--<div class="form-group">
-                                    <label class="col-md-12">Password</label>
-                                    <div class="col-md-12">
-                                        <input type="password" value="password" class="form-control form-control-line">
-                                    </div>
-                                </div>--%>
-                                <div class="form-group">
-                                    <label class="col-md-12">Phone No</label>
-                                    <div class="col-md-12">
-                                        <input type="text" placeholder="+1 (212) 970-4133" class="form-control form-control-line">
-                                    </div>
-                                </div>
-                                <%--<div class="form-group">
-                                    <label class="col-md-12">Message</label>
-                                    <div class="col-md-12">
-                                        <textarea rows="5" class="form-control form-control-line"></textarea>
-                                    </div>
-                                </div>--%>
-                                <%--<div class="form-group">
-                                    <label class="col-sm-12">Select Country</label>
-                                    <div class="col-sm-12">
-                                        <select class="form-control form-control-line">
-                                            <option>London</option>
-                                            <option>India</option>
-                                            <option>Usa</option>
-                                            <option>Canada</option>
-                                            <option>Thailand</option>
-                                        </select>
-                                    </div>
-                                </div>--%>
-                                <div class="form-group">
-                                    <div class="col-sm-12">
-                                        <button class="btn btn-success">Update Profile</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Notification Type</th>
+                                            <th><i class="fas fa-mobile-alt m-l-15"></i><br />Mobile</th>
+                                            <th><i class="fas fa-envelope m-l-10"></i><br />Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox0" value="check">
+                                                    <label class="custom-control-label" for="checkbox0"></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox1" value="check">
+                                                    <label class="custom-control-label" for="checkbox1"></label>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox2" value="check">
+                                                    <label class="custom-control-label" for="checkbox2"></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox3" value="check">
+                                                    <label class="custom-control-label" for="checkbox3"></label>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox4" value="check">
+                                                    <label class="custom-control-label" for="checkbox4"></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox5" value="check">
+                                                    <label class="custom-control-label" for="checkbox5"></label>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox6" value="check">
+                                                    <label class="custom-control-label" for="checkbox6"></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox7" value="check">
+                                                    <label class="custom-control-label" for="checkbox7"></label>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox8" value="check">
+                                                    <label class="custom-control-label" for="checkbox8"></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox9" value="check">
+                                                    <label class="custom-control-label" for="checkbox9"></label>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox10" value="check">
+                                                    <label class="custom-control-label" for="checkbox10"></label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox11" value="check">
+                                                    <label class="custom-control-label" for="checkbox11"></label>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button type="button" class="btn btn-primary">Save</button>
                         </div>
                     </div>
                 </div>

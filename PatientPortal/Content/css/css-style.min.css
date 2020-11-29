@@ -42077,8 +42077,8 @@ ul.list-style-none {
 
         .sidebar-nav > ul > li.active > a {
             color: #472e7c;
-            font-weight: 500;
-            border-left: 3px solid #472e7c
+            font-weight: 800;
+            border-bottom: 3px solid #472e7c
         }
 
             .sidebar-nav > ul > li.active > a i {
