@@ -33,7 +33,7 @@
                     <small class="text-muted">Full name </small>
                     <h6>Anthony Edward Stark <i class="fas fa-edit float-right"></i></h6>
                     <small class="text-muted">Email address </small>
-                    <h6>tony.stark@starkenterprises.com <i class="fas fa-edit float-right"></i></h6>
+                    <h6>tony.stark@starkenterprises.com <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#emailModal" data-whatever="@mdo"><i class="fas fa-edit float-right"></i></a></h6>
                     <small class="text-muted p-t-30 db">Phone</small>
                     <h6>+1 (212) 970-4133 <i class="fas fa-edit float-right"></i></h6>
                     <small class="text-muted p-t-30 db">Address</small>
@@ -66,13 +66,14 @@
                                     <thead>
                                         <tr>
                                             <th>Notification Type</th>
-                                            <th><i class="fas fa-mobile-alt m-l-15"></i><br />Mobile</th>
+                                            <th><i class="fas fa-mobile-alt m-l-15"></i><br />Voice</th>
+                                            <th><i class="fas fa-mobile-alt m-l-10"></i><br />Text</th>
                                             <th><i class="fas fa-envelope m-l-10"></i><br />Email</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
+                                            <td>Appointment Reminder</td>
                                             <td>
                                                 <div class="custom-control custom-checkbox mr-sm-2 mb-3">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox0" value="check">
@@ -85,7 +86,12 @@
                                                     <label class="custom-control-label" for="checkbox1"></label>
                                                 </div>
                                             </td>
-
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox13" value="check">
+                                                    <label class="custom-control-label" for="checkbox13"></label>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
@@ -101,7 +107,12 @@
                                                     <label class="custom-control-label" for="checkbox3"></label>
                                                 </div>
                                             </td>
-
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox14" value="check">
+                                                    <label class="custom-control-label" for="checkbox14"></label>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
@@ -117,7 +128,12 @@
                                                     <label class="custom-control-label" for="checkbox5"></label>
                                                 </div>
                                             </td>
-
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox15" value="check">
+                                                    <label class="custom-control-label" for="checkbox15"></label>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
@@ -133,7 +149,12 @@
                                                     <label class="custom-control-label" for="checkbox7"></label>
                                                 </div>
                                             </td>
-
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox16" value="check">
+                                                    <label class="custom-control-label" for="checkbox16"></label>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
@@ -149,7 +170,12 @@
                                                     <label class="custom-control-label" for="checkbox9"></label>
                                                 </div>
                                             </td>
-
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox17" value="check">
+                                                    <label class="custom-control-label" for="checkbox17"></label>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>1</td>
@@ -165,7 +191,12 @@
                                                     <label class="custom-control-label" for="checkbox11"></label>
                                                 </div>
                                             </td>
-
+                                            <td>
+                                                <div class="custom-control custom-checkbox mr-sm-2 mb-3">
+                                                    <input type="checkbox" class="custom-control-input" id="checkbox18" value="check">
+                                                    <label class="custom-control-label" for="checkbox18"></label>
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -193,6 +224,34 @@
                             <div class="form-group">
                                 <label for="message-text" class="control-label">Confirm Password:</label>
                                 <textarea class="form-control" id="message-text1"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Column -->
+        <div class="modal" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="emailModalLabel1">Change email</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">New email:</label>
+                                <input type="text" class="form-control" id="recipientemail-name1">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">Confirm email:</label>
+                                <textarea class="form-control" id="recipientemail-name2"></textarea>
                             </div>
                         </form>
                     </div>

@@ -24,7 +24,8 @@
             <a href="Appointments.aspx">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="Content/images/orangeappointment.png" />
+                        <%--<img src="Content/images/orangeappointment.png" />--%>
+                        <img src="Content/images/appointment.png" />
                         <h3 class="card-title" style="margin-top: 10px;">Schedule an 
                             <br />
                             appointment</h3>
