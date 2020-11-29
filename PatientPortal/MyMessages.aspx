@@ -63,6 +63,18 @@
                                             <td>Romanoff</td>
                                             <td>@blackwidow</td>
                                         </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Stephen</td>
+                                            <td>Strange</td>
+                                            <td>@drstrange</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Bruce</td>
+                                            <td>Banner</td>
+                                            <td>@hulk</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
