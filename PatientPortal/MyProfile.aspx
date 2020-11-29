@@ -22,7 +22,6 @@
                                         <div class="col-4">
                                             <a href="javascript:void(0)" class="link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-edit"></i>&nbsp;Edit</a>
                                         </div>
-
                                         <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>&nbsp;Picture</a></div>
                                     </div>
                                 </center>
