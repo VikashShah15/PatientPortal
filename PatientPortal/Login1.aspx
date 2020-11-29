@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="HospitalPortal.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login1.aspx.cs" Inherits="HospitalPortal.Login" %>
 
 <!DOCTYPE html>
 
@@ -36,53 +36,60 @@
             <div class="login-box card">
                 <div class="card-body">
                     <form class="form pt-3" id="loginform" action="/">
-                        <h3 class="text-center m-b-20">Sign In</h3>
-                        <div class="form-group">
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon11"><i class="ti-user"></i></span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon11" runat="server" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon33"><i class="ti-lock"></i></span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon33" runat="server" />
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-md-12">
-                                <div class="d-flex no-block align-items-center">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1" /><label class="custom-control-label" for="customCheck1">Remember me</label>
-                                    </div>
-                                    <div class="ml-auto">
-                                        <a href="/RecoverPassword.aspx" id="to-recover" class="text-muted"><i class="fas fa-lock m-r-5"></i>Forgot password?</a>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <h3 class="text-center m-b-20">Sign In</h3>
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon11"><i class="ti-user"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon11" runat="server" />
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon33"><i class="ti-lock"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon33" runat="server" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <div class="d-flex no-block align-items-center">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1" /><label class="custom-control-label" for="customCheck1">Remember me</label>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <a href="/RecoverPassword.aspx" id="to-recover" class="text-muted"><i class="fas fa-lock m-r-5"></i>Forgot password?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="col-xs-12 p-b-20">
+                                        <%--<button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">Log In</button>--%>
+                                        <a href="~/Dashboard.aspx" class="btn btn-lg btn-info btn-rounded m-l-5" runat="server" style="width: 60%">Log In</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <h3 class="text-center m-b-20">&nbsp;</h3>
+                                <div class="text-center">
+                                    <div class="p-b-30">We will send verification code to confirm access to this number. Standard text messaging rates apply.</div>
+                                    <div class="col-xs-12 p-b-30">
+                                        <a href="javascript:void(0)" id="to-mobile" class="btn btn-lg btn-info btn-rounded" style="width: 68%"><i class="fas fa-mobile-alt m-r-5"></i>Using Mobile Phone</a>
+                                    </div>
+                                </div>
+                                <div class="form-group m-b-0">
+                                    <div class="col-sm-12 text-center">
+                                        Don't have an account? <a href="/RegisterMail.html" class="text-info m-l-5"><b>Sign Up</b></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <div class="col-xs-12 p-b-20">
-                                <%--<button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">Log In</button>--%>
-                                <a href="~/Dashboard.aspx" class="btn btn-lg btn-info btn-rounded m-l-5" runat="server" style="width: 60%">Log In</a>
-                            </div>
-                        </div>
-                        <h4 style="padding-bottom: 5px" class="text-center">------ OR ------</h4>
-                        <div class="text-center">
-                            <div class="p-b-30">We will send verification code to confirm access to this number. Standard text messaging rates apply.</div>
-                            <div class="col-xs-12 p-b-30">
-                                <a href="javascript:void(0)" id="to-mobile" class="btn btn-lg btn-info btn-rounded" style="width: 68%"><i class="fas fa-mobile-alt m-r-5"></i>Using Mobile Phone</a>
-                            </div>
-                        </div>
-                        <div class="form-group m-b-0">
-                            <div class="col-sm-12 text-center">
-                                Don't have an account? <a href="/RegisterMail.html" class="text-info m-l-5"><b>Sign Up</b></a>
-                            </div>
-                        </div>
+                        <%--<h4 style="padding-bottom: 5px" class="text-center">------ OR ------</h4>--%>
                     </form>
                     <form class="form pt-3" id="recoverform" action="/">
                         <div class="form-group ">
@@ -181,7 +188,7 @@
                 </div>
             </div>
             <div class="login-register-bottom" style="background-color: #fff;">
-                <div class="login-box card" style="width: 100%">
+                <div class="login-box card" style="width:100%">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-4 col-sm-12 col-xs-12">

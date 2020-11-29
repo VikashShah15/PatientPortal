@@ -83,6 +83,7 @@
     <Content Include="Content\js\sweetalert2.min.js" />
     <Content Include="AddPharmacy.aspx" />
     <Content Include="HealthLibrary.aspx" />
+    <Content Include="Login1.aspx" />
     <Content Include="MyInsurance.aspx" />
     <Content Include="MyForms.aspx" />
     <Content Include="MyCharts.aspx" />
@@ -390,6 +391,13 @@
     </Compile>
     <Compile Include="HealthLibrary.aspx.designer.cs">
       <DependentUpon>HealthLibrary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login1.aspx.cs">
+      <DependentUpon>Login1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login1.aspx.designer.cs">
+      <DependentUpon>Login1.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyInsurance.aspx.cs">
       <DependentUpon>MyInsurance.aspx</DependentUpon>

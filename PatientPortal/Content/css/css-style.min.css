@@ -45245,6 +45245,11 @@ html body .navbar-dark .mailbox .message-center {
         overflow: hidden
     }
 
+    .login-register-bottom{
+        position:relative;
+        overflow:hidden
+    }
+
     .login-box {
         width: 90%
     }
